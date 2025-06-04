@@ -1,0 +1,29 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "build": "npm install",
+        "start": "node src/index.js",
+        "dev": "node --watch src/index.js"
+    },
+    "keywords": [],
+    "author": "Ayush Kumar Yadav",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "bcrypt": "^5.1.1",
+        "cookie-parser": "^1.4.6",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "fs-extra": "^11.3.0",
+        "jsonwebtoken": "^9.0.2",
+        "mon": "^0.0.8",
+        "mongoose": "^8.5.1",
+        "node": "^22.15.0",
+        "puppeteer": "^24.8.2",
+        "uuid": "^11.1.0"
+    }
+}
